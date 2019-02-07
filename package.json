@@ -1,0 +1,39 @@
+{
+  "name": "devportfolio-template",
+  "version": "1.1.3",
+  "description": "",
+  "main": "js/scripts.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "portfolio",
+    "personal",
+    "website",
+    "tech",
+    "coding",
+    "dev"
+  ],
+  "author": "Sankaran Shanmugavelayudam",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^8.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.29",
+    "gulp-wait": "0.0.2",
+    "lite-server": "^2.3.0"
+  }
+}
